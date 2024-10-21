@@ -20,7 +20,7 @@ Client_ID <- "HjOjx_5mfMoZUt7fYWE3"
 Client_Secret <- "X190KGQ5nH"
 
 #뉴스 URL 작성(UTF-8로 암호화, API 요청할 URL 정의, 검색결과는 100로 요청)
-query <- URLencode(iconv("자전거 시장", to="UTF-8"))
+query <- URLencode(iconv("트렉바이시클", to="UTF-8"))
 url <- paste(searchUrl, "?query=", query, "&display=100&start=1&sort=sim", sep="")
 
 #문서 다운로드_URI 다운로드하기
